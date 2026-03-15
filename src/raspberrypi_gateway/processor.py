@@ -54,6 +54,8 @@ def on_message(client, userdata, message):
 
 # Execution
 init_db()
+# Important: Broker must be configured to allow external connections 
+# Add 'listener 1883' and 'allow_anonymous true' in /etc/mosquitto/mosquitto.conf file
 # Initialize MQTT client using the latest API version
 client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2)
 
