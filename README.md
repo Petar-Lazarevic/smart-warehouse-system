@@ -54,7 +54,7 @@ Once the Web App is running, open your browser and navigate to:
 **Note for Raspberry Pi users:** If you encounter a "managed environment" error when running `pip`, it is recommended to use a Virtual Environment (`venv`) or install system-wide packages using:
 > `sudo apt install python3-paho-mqtt python3-flask`
 
-# 📁 Repository Structure
+## 📁 Repository Structure
 ```text
 smart-warehouse-system/
 ├── src/
