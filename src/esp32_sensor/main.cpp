@@ -13,7 +13,7 @@
 // Network and MQTT Credentials
 const char* ssid = "YOUR_SSID";
 const char* password = "YOUR_PASSWORD";
-const char* mqtt_server = "GATEWAY_IP_ADDRESS"; // Raspberry Pi IP
+const char* mqtt_server = "192.168.100.16"; // Use your Raspberry IP address here
 const char* topic = "warehouse/rfid";
 
 // Hardware pins mapping
